@@ -43,6 +43,8 @@ section#login{
     left: 50%;
 
     transform: translate(-50%, -50%);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 #login div#imagem{
@@ -50,12 +52,14 @@ section#login{
     height: 200px;
     background-position: center bottom;
     background-size: cover;
+    display: block;
 }
 
 #login div#formulario{
     padding: 10px;
     font-size: 0.8em;
     line-height: 1.3em;
+    display: block;
 }
 
 #formulario h1{
